@@ -7,7 +7,9 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DOCS = ROOT / 'knowledge/upstream/ablestack-docs/docs'
+SNAPSHOT = ROOT / 'knowledge/docs'
+LOCAL_DOCS = ROOT / 'knowledge/upstream/ablestack-docs/docs'
+DOCS = SNAPSHOT if any(SNAPSHOT.rglob('*.md')) else LOCAL_DOCS
 PDFS = ROOT / 'knowledge/pdfs'
 SITE = 'https://docs.ablecloud.io/latest/'
 IGNORE = {'하는','에서','어떻게','대한','설명','알려줘','에이블스택','ABLESTACK','ABLECLOUD'}
