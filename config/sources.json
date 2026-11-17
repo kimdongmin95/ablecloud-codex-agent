@@ -1,0 +1,15 @@
+{
+  "docs_repo": "https://github.com/ablecloud-team/ablestack-docs.git",
+  "docs_branch": null,
+  "docs_site": "https://docs.ablecloud.io/latest/",
+  "pdfs": [
+    {
+      "name": "ABLESTACK Technical White Paper",
+      "url": "https://www.ablecloud.io/pdf/ABLESTACK_Technical.pdf"
+    },
+    {
+      "name": "ABLESTACK HCI Product Introduction",
+      "url": "https://www.ablecloud.io/pdf/ABLESTACK_HCI_Product_introduction.pdf"
+    }
+  ]
+}
